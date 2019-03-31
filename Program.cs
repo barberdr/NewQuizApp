@@ -6,18 +6,27 @@ namespace NewQuizApp
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("*******************************************************");
+            Console.WriteLine("Welcome to the quizz app! Choose from the options below");
+
             while (true)
 	        {
-                Console.WriteLine("Welcome to the quizz app! Enter 0 if you are ready for a quiz, or 1 if you would like to exit");
+               
+                Console.WriteLine("0. Exit");
+                Console.WriteLine("1. Take a quiz on Domain 1.0 - Hardware");
+                Console.WriteLine("2. Take a quiz on Domain 2.0 - Networking");
+                Console.WriteLine("3. Take a quiz on Domain 3.0 - Mobile Devices");
+                Console.WriteLine("4. Take a quiz on Domain 4.0 - Hardware & Network Troubleshooting");
                 var UserInput = Console.ReadLine();
-                switch (UserInput)
+                
+            switch (UserInput)
                 {
                     case "0":
-                        //Run the quizz app
-                        break;
-                    case "1":
                         Console.WriteLine("Okay feel free to come back anytime!");
                         return;
+                    case "1":
+                        //run the quiz engine program
+                        break;
                     default:
                         break;
                 }

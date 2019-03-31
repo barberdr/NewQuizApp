@@ -1,0 +1,11 @@
+C:\Users\Doug\source\repos\NewQuizApp\bin\Debug\netcoreapp2.1\NewQuizApp.deps.json
+C:\Users\Doug\source\repos\NewQuizApp\bin\Debug\netcoreapp2.1\NewQuizApp.runtimeconfig.json
+C:\Users\Doug\source\repos\NewQuizApp\bin\Debug\netcoreapp2.1\NewQuizApp.runtimeconfig.dev.json
+C:\Users\Doug\source\repos\NewQuizApp\bin\Debug\netcoreapp2.1\NewQuizApp.dll
+C:\Users\Doug\source\repos\NewQuizApp\bin\Debug\netcoreapp2.1\NewQuizApp.pdb
+C:\Users\Doug\source\repos\NewQuizApp\obj\Debug\netcoreapp2.1\NewQuizApp.csprojAssemblyReference.cache
+C:\Users\Doug\source\repos\NewQuizApp\obj\Debug\netcoreapp2.1\NewQuizApp.csproj.CoreCompileInputs.cache
+C:\Users\Doug\source\repos\NewQuizApp\obj\Debug\netcoreapp2.1\NewQuizApp.AssemblyInfoInputs.cache
+C:\Users\Doug\source\repos\NewQuizApp\obj\Debug\netcoreapp2.1\NewQuizApp.AssemblyInfo.cs
+C:\Users\Doug\source\repos\NewQuizApp\obj\Debug\netcoreapp2.1\NewQuizApp.dll
+C:\Users\Doug\source\repos\NewQuizApp\obj\Debug\netcoreapp2.1\NewQuizApp.pdb

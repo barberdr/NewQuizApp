@@ -688,23 +688,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\drbarber\\.nuget\\packages\\": {},
+    "C:\\Users\\Doug\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\drbarber\\source\\repos\\barberdr\\NewQuizApp\\NewQuizApp.csproj",
+      "projectUniqueName": "C:\\Users\\Doug\\source\\repos\\NewQuizApp\\NewQuizApp.csproj",
       "projectName": "NewQuizApp",
-      "projectPath": "C:\\Users\\drbarber\\source\\repos\\barberdr\\NewQuizApp\\NewQuizApp.csproj",
-      "packagesPath": "C:\\Users\\drbarber\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\drbarber\\source\\repos\\barberdr\\NewQuizApp\\obj\\",
+      "projectPath": "C:\\Users\\Doug\\source\\repos\\NewQuizApp\\NewQuizApp.csproj",
+      "packagesPath": "C:\\Users\\Doug\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Doug\\source\\repos\\NewQuizApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\drbarber\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Doug\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
