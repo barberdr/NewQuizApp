@@ -25,7 +25,16 @@ namespace NewQuizApp
                         Console.WriteLine("Okay feel free to come back anytime!");
                         return;
                     case "1":
-                        //run the quiz engine program
+                        //run the quiz engine program for domian 1 questions
+                        break;
+                    case "2":
+                        //run the quiz engine program for domian 2 questions
+                        break;
+                    case "3":
+                        //run the quiz engine program for domian 3 questions
+                        break;
+                    case "4":
+                        //run the quiz engine program for domian 4 questions
                         break;
                     default:
                         break;
