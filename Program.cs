@@ -17,9 +17,9 @@ namespace NewQuizApp
                 Console.WriteLine("2. Take a quiz on Domain 2.0 - Networking");
                 Console.WriteLine("3. Take a quiz on Domain 3.0 - Mobile Devices");
                 Console.WriteLine("4. Take a quiz on Domain 4.0 - Hardware & Network Troubleshooting");
-                var UserInput = Console.ReadLine();
+                var ChosenDomain = Console.ReadLine();
                 
-            switch (UserInput)
+            switch (ChosenDomain)
                 {
                     case "0":
                         Console.WriteLine("Okay feel free to come back anytime!");

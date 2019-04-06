@@ -6,6 +6,9 @@ namespace NewQuizApp
 {
     class CompTIA220901QuizQuestions
     {
+        //The first value of each question array is the question
+        //The last value in each question array is the correct answer
+
         #region Domain1Hardware
                        
         public readonly string[][] Domain1Hardware = new string[3][]
