@@ -17,23 +17,23 @@ namespace NewQuizApp
                 Console.WriteLine("2. Take a quiz on Domain 2.0 - Networking");
                 Console.WriteLine("3. Take a quiz on Domain 3.0 - Mobile Devices");
                 Console.WriteLine("4. Take a quiz on Domain 4.0 - Hardware & Network Troubleshooting");
-                var ChosenDomain = Console.ReadLine();
+                int ChosenDomain = Convert.ToInt32(Console.ReadLine());
                 
             switch (ChosenDomain)
                 {
-                    case "0":
+                    case 0:
                         Console.WriteLine("Okay feel free to come back anytime!");
                         return;
-                    case "1":
+                    case 1:
                         //run the quiz engine program for domian 1 questions
                         break;
-                    case "2":
+                    case 2:
                         //run the quiz engine program for domian 2 questions
                         break;
-                    case "3":
+                    case 3:
                         //run the quiz engine program for domian 3 questions
                         break;
-                    case "4":
+                    case 4:
                         //run the quiz engine program for domian 4 questions
                         break;
                     default:

@@ -6,12 +6,51 @@ namespace NewQuizApp
 {
     class CompTIA220901QuizQuestions
     {
+        public string[] GetDomainQuestion(int domainNumber, int questionNumber)
+        {
+            // get the correct domain array
+            var domain = GetDomain(domainNumber);
+            // validate question number is in the appropriate range
+            if (questionNumber < 0 || questionNumber > domain.Length)
+            {
+                throw new InvalidOperationException("Invalid Question Number");
+            }
+            return domain[questionNumber];
+        }
+
+        public int NumberOfQuestionsInDomain(int domainNumber)
+        {
+            //get the correct domain
+            var domain = GetDomain(domainNumber);
+            return domain.Length;
+        }
+
+        // this function can be either a switch (like you have in the quiz engine) or several if statements
+        // I went with the if statment in this case, but either works
+        private string[][] GetDomain(int domain)
+        {
+            switch(domain)
+            {
+                case 1:
+                    return Domain1Hardware;
+                case 2:
+                    return Domain2Networking;
+                case 3:
+                    return Domain3MobileDevicess;
+                case 4:
+                    return Domain4HardwareandNetworkTroubleshooting;
+                default:
+                    throw new InvalidOperationException("Invalid Domain");
+            }
+        }
+
+
         //The first value of each question array is the question
         //The last value in each question array is the correct answer
 
         #region Domain1Hardware
-                       
-        public readonly string[][] Domain1Hardware = new string[3][]
+
+        private readonly string[][] Domain1Hardware = new string[3][]
         {
             new string[]
             {
@@ -58,7 +97,7 @@ namespace NewQuizApp
 
         #region Domain2Networking
 
-        public readonly string[][] Domain2Networking = new string[3][]
+        private readonly string[][] Domain2Networking = new string[3][]
         {
             new string[]
             {
@@ -105,7 +144,7 @@ namespace NewQuizApp
 
         #region Domain3MobileDevices
 
-        public readonly string[][] Domain3MobileDevicess = new string[3][]
+        private readonly string[][] Domain3MobileDevicess = new string[3][]
         {
             new string[]
             {
@@ -152,7 +191,7 @@ namespace NewQuizApp
 
         #region Domain4HardwareandNetworkTroubleshooting
 
-        public readonly string[][] Domain4HardwareandNetworkTroubleshooting = new string[3][]
+        private readonly string[][] Domain4HardwareandNetworkTroubleshooting = new string[3][]
         {
             new string[]
             {
